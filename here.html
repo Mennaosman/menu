@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <SCRIPT LANGUAGE="JavaScript">
+//This script posts the exact day and time you arrived
+RightNow = new Date( );
+document.write( RightNow.getDate( ) +  ". You entered this Web Page at exactly: " + RightNow.getHours( ) + ":" + RightNow.getMinutes( ) + " and " + RightNow.getSeconds( ) + " seconds")
+</SCRIPT>
+    <style type="text/css">
+  
+    p#ll{
+            margin-top: 120px; 
+            font-size: 10px;
+    }
+      
+  ul#a {
+    margin: 0 40px;/* ابعد المسافه*/
+    list-style: none;
+    transition: 0.5s;/*Time for action*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    padding: 0; 
+    }
+  ul#a li#b
+    {
+      width: 60px;
+      height: 60px;
+      transform: rotate(-30deg) skew(25deg);
+      background: #ccc;
+      margin: 0 30px;
+      position: relative;
+    }
+  ul#a li#b span
+    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex !important;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 30px !important;
+  }
+  ul#a li#b:hover span:nth-child(5)
+    {
+      transform: translate(40px,-40px);
+      opacity: 1;
+    }
+  ul#a li#b:hover span:nth-child(4)
+    {
+    transform: translate(30px,-30px);
+    opacity: 0.8;
+  }
+  ul#a li#b:hover span:nth-child(3){
+    transform: translate(20px,-20px);
+    opacity: 0.6;
+  }
+  ul#a li#b:hover span:nth-child(2){
+    transform: translate(10px,-10px);
+    opacity: 0.4;
+  }
+  ul#a li#b:hover span:nth-child(1){
+    transform: translate(0,0);
+    opacity: 0.2;
+  }
+  ul#a li#b:nth-child(1) span{background: #003ED0 }
+  ul#a li#b:nth-child(2) span{background: #40A0E5}
+  ul#a li#b:nth-child(3) span{background: #F30A0E}
+       a:visited{color:blue;} 
+       a:hover{color:red ;} 
+       a:active{color:green ;} 
+       form{
+        background-color: bisque;
+        width: 1350px;
+        height: 200px;
+       }
+        form#w{
+        background-color: #383838;
+        width: 1350px;
+        height: 300px;
+       }
+        form#a{
+        background-color: #006699;
+        width: 1350px;
+        height: 300px;
+
+
+       }
+       img#n{
+            margin-left: 1000px;
+            height: 100px;
+            width:300px;
+       }
+         img#m{
+           margin-left: 1000px;
+            height: 100px;
+            width:300px;
+       }
+       body{
+              background-color: bisque;
+       }
+        ul
+    {
+      top: 10px;
+      left: 500px;
+      display: flex;
+      background-color: bisque;
+    }
+    ul li
+    {
+      margin: 0 20px;/* ابعد المسافه*/
+      list-style: none; /*square,circle,dics: ;*/
+      transition: 0.5s;
+    }
+    ul li a
+    {
+      display: block;
+      position: relative;
+      text-decoration: none;
+      padding: 5px;
+      font-size: 18px;
+      color: white;
+      text-transform: uppercase;
+      /*transition: 0.5s;*/
+    }
+    ul:hover li a
+    {
+      /*transform: scale(1.25);*/
+      opacity: 0.3;
+      filter: blur(1px);/*ضباب*/  
+    }
+    ul li a:hover
+    {
+      transform: scale(1.25);
+      opacity: 1;
+      filter: blur(0);
+    }
+    ul li a:before
+    {
+      content: '';
+      width: 90%;
+      height: 70%;
+        
+      background:#381EDB;
+      position: absolute;
+      transition: 0.5s;
+      transform-origin: right;
+      transform: scale(0);
+      z-index: -1;/* z-index makes layers: -1 means behind elements */
+    }
+    ul li a:hover:before
+    {
+      transition: 0.5s;
+      transform-origin: left;
+      transform: scale(1);
+    }
+
+    .dropdown-content 
+    {
+      display: none;
+      position: absolute;
+    }
+    .dropdown:hover .dropdown-content 
+    {
+      display: block;
+    }
+
+       img#h {
+    width: 200px;
+    height: 200px;
+   margin-left: 100px;
+    position: relative;
+    animation-name: Key2;
+    animation-duration: 3s;
+  animation-iteration-count: infinite;*/ /* infinite 
+   /* animation-direction: alternate;  to run animation in reverse direction 
+      normal, reverse, alternate, alternate-reverse*/
+
+  }  
+
+/* Standard syntax */
+@keyframes Key2 {
+    75%   {background-image:url("download (7)s.jpg"); left:200px; top:0px;}
+    75%  {background-image:url("download (6).jpg"); right: :-200px; top:0px;}
+     75%  {background-image:url("download (6).jpg"); left:200px; top:0px;}
+   
+
+}
+
+
+
+    </style>
+  
+  </head>
+  <body>
+    <p align="left" id="nm"> <img src="C:\xampp\htdocs\New folder (4)\picture\;o.jpg"> <p align="center">    <img src="download.png" align="right" ></p> 
+               <a href="C:\xampp\htdocs\New folder (4)\index.html"><h3>Home</h3></a><br>
+
+    
+      <!-- <ul >     
+    <li class="dropdown">
+      <a href="Furniture.html">Furniture</a>
+        <div class="dropdown-content" style="background-color:skyblue;">
+        <a href="C:\xampp\htdocs\New folder (4)\antarihat\antrihat.html">Antarihat</a>
+        <a href="C:\xampp\htdocs\New folder (4)\sfrat\Sofrat.html">Sofrat</a>
+        <a href="C:\xampp\htdocs\New folder (4)\bedrooms\bedRooms.html">bedrooms</a>
+      </div>
+    </li>
+
+    <li><a href="C:\xampp\htdocs\New folder (4)\menna.html">Decors</a>
+    
+
+    </li>
+  </ul> -->
+  <form id="a" >
+    
+      <!--  <img src="2.png" width="20" height="20" > -->
+     <h1>FREE REGISTRATION REGISTRATE NOW </h1>
+     <h2>DISCOUND FOR </h2>
+        <img src="download (2).jpg" id="m" >
+        <img src="download (3).jpg" id="n" >
+       
+    
+   
+
+  </form>
+<h1 style="color:skyblue;">Welcome To Our Website</h1>
+     <img src="C:\xampp\htdocs\New folder (4)\download (7).jpg" id="h" />
+      <img src="8.jpg" align="right" width="700" height="300">
+  <p>
+
+     <table border="0">
+      
+         <th><!-- 
+                <iframe src="text.html" width="280" height="200" border="0">
+            your browser does not support frames.
+          </iframe> -->
+         </th> 
+          
+           <th>
+             
+           </th>
+          
+           <th>
+           <!--  <iframe src="m.html" width="280" height="200" border="0">
+            your browser does not support frames.
+          </iframe> -->
+         </th> 
+          <th>
+             
+           </th>
+          
+
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+        </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+       <tr>
+          <td>our mobil is 0125555555<br><br><br><br><br><br><br> our phone is 50153333 <br><br><br><br><br>
+          our fax is  :             <br>
+
+          <td><img src="C:\xampp\htdocs\New folder (4)\picture\images (9).jpg" width="700" height="
+            400"></td>
+      </tr>
+       <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+        </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+
+
+         <td></td>
+         <td></td>
+         <td></td>
+        </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+        <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+       </tr>
+
+
+.
+
+
+
+     </table>
+
+       <form id="w">
+         <h1 align="center" style="color:white" id="mm">Take Your Busniss To <br>The Next Level</h1>
+       </form>
+
+  </p>
+        <form name="f1" >
+          <table>
+        <th><a href="">languge</a></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="">title</a></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="">Phone</a></th>
+         <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th><a href="">date</a></th>
+        <!-- <th></th>
+        <th></th>
+        <th><a href="">languge</a></th>
+        <tr>
+        <td><a href="">languge</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="">languge</a></td>
+        <td></td>
+        <td> </td>
+        <td><a href="">languge</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="">languge</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="">languge</a><br> -->
+        
+        </tr>
+        
+      </table>
+          
+    <p align="center" id="pp"><a href="#nm" >top</a></p>
+            <p id="ll" align="center">Copyright © 2004-2018</p> 
+        </form> 
+
+   
+          
+  </body>
+</html>
